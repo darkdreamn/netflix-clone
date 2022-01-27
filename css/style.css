@@ -1,0 +1,33 @@
+:root {
+    --red: #e50914;
+    --black: #141414;
+}
+
+body {
+    background-color: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    color: var(--red);
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 12px;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 8px;
+}
