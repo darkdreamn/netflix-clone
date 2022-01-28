@@ -19,6 +19,7 @@ header nav a {
     text-decoration: none;
     color: #aaa;
     margin-right: 12px;
+    padding: 7px 0;
 }
 
 header nav a:hover {
@@ -30,10 +31,18 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 0 8px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* documentário principal */
+.doc-main .container {
+    width: 70%;
+} 
+
 .doc-main {
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-sgm.JPG');
@@ -75,4 +84,10 @@ header .container {
 
 .buttons i { 
     margin-right: 6px;
+}
+
+.box-doc {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
