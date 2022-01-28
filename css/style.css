@@ -58,6 +58,7 @@ header .container {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 15px;
 }
 
 .doc-main .title {
@@ -100,4 +101,12 @@ header .container {
 
 .carousel-docs {
     margin-top: 10px;
+}
+
+.carousel-docs h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
